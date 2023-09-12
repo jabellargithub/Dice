@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+}
+img {
+    height: 13rem;
+    background-color: blueviolet;
+    border-radius: 30px;
+}
+body {
+    text-align: center;
+    position: relative;
+    
+}
+
+h1 {
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+.container {
+    display: block;
+    background-color: violet;
+    height: 100vh;   
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  margin: 80px 0px 0px 110px;
+}
+
+.players {
+    margin-right: 120px;
+}
+
+button {
+    margin-right: 10px;
+    margin-top: 60px;
+    height: 40px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    font-family: cursive;
+    font-size: larger;
+    background-color: rgb(255, 0, 0);
+}
+
+button:hover {
+    color: #fff;
+    background-color: blue;
+}
+
+#result {
+    color: #fff;
+    font-family: cursive;
+    font-size: x-large;
+    margin-top: 100px;
+}
+
+
